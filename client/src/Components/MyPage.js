@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Card, CardText, CardTitle, CardActions, CardMenu, Button, IconButton } from 'react-mdl';
 class MyPage extends Component{
     render(){
         return (
-            <div style = {{width:'100%',margin : 'auto'}}>
+            <div style = {{width:'100%', height:'100%', margin : 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                      <img
@@ -46,8 +46,133 @@ class MyPage extends Component{
                             </a>
                         </div>
                         </div>
+                        <br></br><br></br><br></br><br></br><br></br><br></br>
+                        <div className="myStuff-grid">
+            {/* HTML */}
+           <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sabe.io/classes/html/thumbnail.png) center / cover'}}>HTML</CardTitle>
+           <CardText>
+               Testing your skils with HTML
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           {/* CSS */}
+           <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.ostraining.com/cdn/images/oscampus/courses/CSS-part-1.jpg) center / cover'}}>CSS</CardTitle>
+           <CardText>
+               Testing your skils with CSS
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           {/* JavaScript */}
+           <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/javascript.png?1512678119) center / cover'}}>JavaScript</CardTitle>
+           <CardText>
+               Testing your skils with JavaScript
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           {/* JQUERY */}
+           <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sg.fiverrcdn.com/photos/104964294/original/f044e967955be66ba56d83c5d575def8a87bce19.png?1512052845) center / cover'}}>JQUERY</CardTitle>
+           <CardText>
+               Testing your skils with JQUERY
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           </div>
+            {/* HTML */}
+            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sabe.io/classes/html/thumbnail.png) center / cover'}}>HTML</CardTitle>
+           <CardText>
+               Testing your skils with HTML
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           {/* CSS */}
+           <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.ostraining.com/cdn/images/oscampus/courses/CSS-part-1.jpg) center / cover'}}>CSS</CardTitle>
+           <CardText>
+               Testing your skils with CSS
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           {/* JavaScript */}
+           <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/javascript.png?1512678119) center / cover'}}>JavaScript</CardTitle>
+           <CardText>
+               Testing your skils with JavaScript
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           {/* JQUERY */}
+           <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sg.fiverrcdn.com/photos/104964294/original/f044e967955be66ba56d83c5d575def8a87bce19.png?1512052845) center / cover'}}>JQUERY</CardTitle>
+           <CardText>
+               Testing your skils with JQUERY
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           
                         </Cell> 
                     </Grid>
+
             </div>
             
             

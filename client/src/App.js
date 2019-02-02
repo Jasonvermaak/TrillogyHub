@@ -13,19 +13,16 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className ="header-color" title="Team Get A Job" scroll>
+        <Header className ="header-color" title="TrillogyHub" scroll>
+            <Navigation>
+                <Link to="/Logout">Logout</Link>
+            </Navigation>
+        </Header>
+        <Drawer title="TrillogyHub">
             <Navigation>
                 <Link to="/MyPage">MyPage</Link>
                 <Link to="/Career">Career</Link>
                 <Link to="/SelfAssessment">Self Assessment</Link>
-                <Link to="/Logout">Logout</Link>
-            </Navigation>
-        </Header>
-        <Drawer title="Team Get A Job">
-            <Navigation>
-                <a href="/">Career</a>
-                <a href="/">Self Assessment</a>
-                <a href="/">Logout</a>
             </Navigation>
         </Drawer>
         <Content>

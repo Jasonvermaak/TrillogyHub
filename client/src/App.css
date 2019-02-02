@@ -64,3 +64,7 @@ margin: auto;
 .projects-grid{
     display: flex;
 }
+
+.myStuff-grid{
+    display: flex;
+}
