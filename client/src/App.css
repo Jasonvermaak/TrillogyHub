@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    position: fixed;
     top:0;
     left: 0;
     width: 100%;
@@ -33,7 +32,7 @@ border-radius: 10px;
 .banner-text h1 {
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .banner-text hr {
@@ -63,8 +62,24 @@ margin: auto;
 
 .projects-grid{
     display: flex;
+    background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
+    
 }
 
 .myStuff-grid{
     display: flex;
+    background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
+}
+
+.career-grid{
+    display: flex;
+}
+ 
+h1{
+    text-align: center;
+    color: #FFD200;    
+    background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
 }

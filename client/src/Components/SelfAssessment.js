@@ -1,27 +1,31 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, CardMenu, Button, IconButton } from 'react-mdl';
-
 class Self extends Component {
+    
    constructor (props) {
        super(props);
        this.state = { activeTab: 0};
    }
-   
    toggleCategories() {
-
     if (this.state.activeTab === 0){
         return(
             <div className="projects-grid">
             {/* HTML */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sabe.io/classes/html/thumbnail.png) center / cover'}}>HTML</CardTitle>
+           <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://sabe.io/classes/html/thumbnail.png) center / cover'}}>HTML</CardTitle>
            <CardText>
-               Testing your skils with HTML
+               Testing your skills with HTML
            </CardText>
                 <CardActions border>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
+                    <a href="https://learn.shayhowe.com/html-css/building-your-first-web-page/" rel="noopener noreferrer" target="_blank">
+                    <Button>Getting started</Button>
+                    </a>
+                    <a href="https://www.quackit.com/html/html_help.cfm" rel="noopener noreferrer" target="_blank">
+                    <Button> Quackit html helpl</Button>
+                    </a>
+                    <a href="https://www.w3schools.com/html/html_quiz.asp" rel="noopener noreferrer" target="_blank">
+                    <Button> W3 Schools Test</Button>
+                    </a>
                 </CardActions>
            <CardMenu style={{color:'#fff'}}>
                 <IconButton name="share" />
@@ -29,14 +33,20 @@ class Self extends Component {
            </Card>
            {/* CSS */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.ostraining.com/cdn/images/oscampus/courses/CSS-part-1.jpg) center / cover'}}>CSS</CardTitle>
+           <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://bradsknutson.com/wp-content/uploads/2018/03/css3-social-media-icons.png) center / cover'}}>CSS</CardTitle>
            <CardText>
-               Testing your skils with CSS
+               Testing your skills with CSS
            </CardText>
                 <CardActions border>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
+                <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" rel="noopener noreferrer" target="_blank">
+                    <Button> Bootstrap Docs </Button>
+                    </a>
+                    <a href="http://www.cssdesk.com/" rel="noopener noreferrer" target="_blank">
+                    <Button>  Cssdesk Practice </Button>
+                    </a>
+                    <a href="https://www.w3schools.com/css/css_quiz.asp" rel="noopener noreferrer" target="_blank">
+                    <Button> W3 Schools Test</Button>
+                    </a>
                 </CardActions>
            <CardMenu style={{color:'#fff'}}>
                 <IconButton name="share" />
@@ -44,14 +54,20 @@ class Self extends Component {
            </Card>
            {/* JavaScript */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/javascript.png?1512678119) center / cover'}}>JavaScript</CardTitle>
+           <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/javascript.png?1512678119) center / cover'}}>JavaScript</CardTitle>
            <CardText>
-               Testing your skils with JavaScript
+               Testing your skills with JavaScript
            </CardText>
                 <CardActions border>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
+                <a href="https://javascript30.com/" rel="noopener noreferrer" target="_blank">
+                    <Button> Javascript30 </Button>
+                    </a>
+                    <a href="https://javascript-workbook.netlify.com/" rel="noopener noreferrer" target="_blank">
+                    <Button> javascript workbook </Button>
+                    </a>
+                    <a href="https://www.w3schools.com/js/js_quiz.asp" rel="noopener noreferrer" target="_blank">
+                    <Button> W3 Schools Test</Button>
+                    </a>
                 </CardActions>
            <CardMenu style={{color:'#fff'}}>
                 <IconButton name="share" />
@@ -59,14 +75,21 @@ class Self extends Component {
            </Card>
            {/* JQUERY */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sg.fiverrcdn.com/photos/104964294/original/f044e967955be66ba56d83c5d575def8a87bce19.png?1512052845) center / cover'}}>JQUERY</CardTitle>
+           <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://sg.fiverrcdn.com/photos/104964294/original/f044e967955be66ba56d83c5d575def8a87bce19.png?1512052845) center / cover'}}>JQUERY</CardTitle>
            <CardText>
-               Testing your skils with JQUERY
+               Testing your skills with JQUERY
            </CardText>
                 <CardActions border>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
+                <a href="https://www.khanacademy.org/computing/computer-programming/html-js-jquery" rel="noopener noreferrer" target="_blank">
+                    <Button> Khanacademy </Button>
+                    </a> 
+                    <a href="https://htmlcheatsheet.com/jquery/" rel="noopener noreferrer" target="_blank">
+                    <Button> Jquery cheatsheet</Button>
+                    </a>
+                    <a href="https://www.w3schools.com/jquery/jquery_quiz.asp" rel="noopener noreferrer" target="_blank">
+                    <Button>  W3 Schools Test </Button>
+                    </a>
+                   
                 </CardActions>
            <CardMenu style={{color:'#fff'}}>
                 <IconButton name="share" />
@@ -79,14 +102,14 @@ class Self extends Component {
             <div className="projects-grid">
             {/* Firebase */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://ndroidarmy.files.wordpress.com/2017/02/image00.png?w=1200) center / cover'}}>Firebase</CardTitle>
+           <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://ndroidarmy.files.wordpress.com/2017/02/image00.png?w=1200) center / cover'}}>Firebase</CardTitle>
            <CardText>
-               Testing your skils with Firebase
+               Testing your skills with Firebase
            </CardText>
                 <CardActions border>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
+                    <Button>Test</Button>
+                    <Button>Test</Button>
+                    <Button>Test</Button>
                 </CardActions>
            <CardMenu style={{color:'#fff'}}>
                 <IconButton name="share" />
@@ -126,7 +149,7 @@ class Self extends Component {
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/2000/1*zSyNQs8tbBU1sV3XABnhhg.png) center / cover'}}>NodeJS</CardTitle>
            <CardText>
-               Testing your skils with NodeJS
+               Testing your skills with NodeJS
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -146,7 +169,7 @@ class Self extends Component {
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1600/0*AhVo_3sCq-ft64ki.jpg) center / cover'}}>MYSQL</CardTitle>
            <CardText>
-               Testing your skils with MYSQL
+               Testing your skills with MYSQL
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -161,7 +184,7 @@ class Self extends Component {
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/832/1*uPL1uCtLBRSk6akPL2hNzg.jpeg) center / cover'}}>Express</CardTitle>
            <CardText>
-               Testing your skils with Express
+               Testing your skills with Express
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -176,7 +199,7 @@ class Self extends Component {
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1) center / cover'}}>Handlebars</CardTitle>
            <CardText>
-               Testing your skils with Handlebars
+               Testing your skills with Handlebars
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -211,7 +234,7 @@ class Self extends Component {
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/370xauto/8a68280fd20eebfa7789cdaa6fb5eff1/mongo-db-logo.png) center / cover'}}>MongoDB</CardTitle>
            <CardText>
-               Testing your skils with MongoDB
+               Testing your skills with MongoDB
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -226,7 +249,7 @@ class Self extends Component {
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/1120/1*dLaDL-lSN0iprzmOpmM7zQ.png) center / cover'}}>React</CardTitle>
            <CardText>
-               Testing your skils with React
+               Testing your skills with React
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -272,11 +295,13 @@ class Self extends Component {
         }
 
    }
-   
+
 
     render(){
         return (
-            <div className ="category-tabs">
+            <div>
+                <div><h1>Self-Assessment</h1></div>
+            <div className = "category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>Week 1-5</Tab>
                     <Tab>Week 6-10</Tab>
@@ -292,8 +317,11 @@ class Self extends Component {
                     </Grid>
 
             </div>
+            </div>
+            
         )
     }
+    
 
 }
 

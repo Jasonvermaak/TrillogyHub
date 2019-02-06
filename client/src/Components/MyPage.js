@@ -3,6 +3,8 @@ import { Grid, Cell, Card, CardText, CardTitle, CardActions, CardMenu, Button, I
 class MyPage extends Component{
     render(){
         return (
+            <div>
+            <div header><h1>Home Page</h1></div>
             <div style = {{width:'100%', height:'100%', margin : 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
@@ -21,38 +23,43 @@ class MyPage extends Component{
                         <div className="social-links">
 
                             {/* Linkedin */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/showcase/ucf-coding-boot-camp/about/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square"  aria-hidden="true" />
                             </a>
 
                             {/* Github */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/orgs/UCF-Coding-Boot-Camp/teams" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square"  aria-hidden="true" />
                             </a>
 
                             {/* Free code Bootcamp*/}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.freecodecamp.org/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-free-code-camp"  aria-hidden="true" />
                             </a>
 
                             {/* Facebook */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.facebook.com/ucfcebootcamps/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-facebook-square"  aria-hidden="true" />
                             </a>
 
                             {/* youtube */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.youtube.com/channel/UCyrmbwsJdFE7fbIp2BaVwjw" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-youtube-square"  aria-hidden="true" />
                             </a>
                         </div>
                         </div>
+                    
                         <br></br><br></br><br></br><br></br><br></br><br></br>
+                        <div>
+                        <div className heading><h1>TrillogyHub Database</h1>
+                        <p>When you come across something you think you're either going to need later or just want to save so you know where it is, this Database is the perfect spot. </p></div>
+                        <br></br>
                         <div className="myStuff-grid">
             {/* HTML */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sabe.io/classes/html/thumbnail.png) center / cover'}}>HTML</CardTitle>
            <CardText>
-               Testing your skils with HTML
+               Links for HTML Pages
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -65,9 +72,9 @@ class MyPage extends Component{
            </Card>
            {/* CSS */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.ostraining.com/cdn/images/oscampus/courses/CSS-part-1.jpg) center / cover'}}>CSS</CardTitle>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://bradsknutson.com/wp-content/uploads/2018/03/css3-social-media-icons.png) center / cover'}}>CSS</CardTitle>
            <CardText>
-               Testing your skils with CSS
+               Links for CSS, Bootstrap, SASS, Materialize
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -82,7 +89,7 @@ class MyPage extends Component{
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/javascript.png?1512678119) center / cover'}}>JavaScript</CardTitle>
            <CardText>
-               Testing your skils with JavaScript
+               Links For All JavaScript, JQuery
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -93,11 +100,11 @@ class MyPage extends Component{
                 <IconButton name="share" />
            </CardMenu>
            </Card>
-           {/* JQUERY */}
+             {/* Project 1 */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sg.fiverrcdn.com/photos/104964294/original/f044e967955be66ba56d83c5d575def8a87bce19.png?1512052845) center / cover'}}>JQUERY</CardTitle>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.whitehouse51.com/pic/www.shankyfinance.com/uploaded_files/main_img/shankyfinance.com5877335340ff511505663-the-word-project-placed-over-a-plan-project-3d-render--Stock-Photo.jpg) center / cover'}}>Project 1</CardTitle>
            <CardText>
-               Testing your skils with JQUERY
+               All Links For All Projects
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -109,41 +116,28 @@ class MyPage extends Component{
            </CardMenu>
            </Card>
            </div>
-            {/* HTML */}
-            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sabe.io/classes/html/thumbnail.png) center / cover'}}>HTML</CardTitle>
-           <CardText>
-               Testing your skils with HTML
-           </CardText>
-                <CardActions border>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                </CardActions>
-           <CardMenu style={{color:'#fff'}}>
-                <IconButton name="share" />
-           </CardMenu>
-           </Card>
-           {/* CSS */}
+        <br></br><br></br><br></br>
+           <div className="myStuff-grid">
+           {/* Portfolio */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.ostraining.com/cdn/images/oscampus/courses/CSS-part-1.jpg) center / cover'}}>CSS</CardTitle>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.raizavegaphotography.com/wp-content/uploads/2017/02/Portfolio.png) center / cover'}}>Portfolio</CardTitle>
            <CardText>
-               Testing your skils with CSS
+               All Links For Portfolios
            </CardText>
                 <CardActions border>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
-                    <Button colored>Test</Button>
+                    <Button colored>Help</Button>
+                    <Button colored>Help</Button>
+                    <Button colored>Help</Button>
                 </CardActions>
            <CardMenu style={{color:'#fff'}}>
                 <IconButton name="share" />
            </CardMenu>
            </Card>
-           {/* JavaScript */}
+           {/* MongoDB */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/javascript.png?1512678119) center / cover'}}>JavaScript</CardTitle>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/370xauto/8a68280fd20eebfa7789cdaa6fb5eff1/mongo-db-logo.png) center / cover'}}>MongoDB/MYSQL</CardTitle>
            <CardText>
-               Testing your skils with JavaScript
+               Database links for MongoDB, MYSQL, Firebase, Squelize
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -154,11 +148,26 @@ class MyPage extends Component{
                 <IconButton name="share" />
            </CardMenu>
            </Card>
-           {/* JQUERY */}
+          {/* React */}
+          <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/1120/1*dLaDL-lSN0iprzmOpmM7zQ.png) center / cover'}}>React</CardTitle>
+           <CardText>
+               All Links For ReactJS
+           </CardText>
+                <CardActions border>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                    <Button colored>Test</Button>
+                </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+           </CardMenu>
+           </Card>
+           {/* Other */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
-           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sg.fiverrcdn.com/photos/104964294/original/f044e967955be66ba56d83c5d575def8a87bce19.png?1512052845) center / cover'}}>JQUERY</CardTitle>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500) center / cover'}}>Other</CardTitle>
            <CardText>
-               Testing your skils with JQUERY
+               Links for Anything you find important
            </CardText>
                 <CardActions border>
                     <Button colored>Test</Button>
@@ -169,17 +178,19 @@ class MyPage extends Component{
                 <IconButton name="share" />
            </CardMenu>
            </Card>
-           
+           </div>
+           </div>
                         </Cell> 
                     </Grid>
 
             </div>
             
-            
+            </div>
         )
     }
 
 }
+
 
 
 export default MyPage;
