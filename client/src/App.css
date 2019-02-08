@@ -112,6 +112,7 @@ p{
     color: #FFD200;
     font-weight: bold;
     padding: 8px;
+    font-size: 20px;
 }
 
 .friends-img{ 
@@ -124,3 +125,21 @@ p{
     padding: 8%;
   }
 
+  ul {
+      text-align: center;
+      padding: 3%;
+  }
+
+ul li{
+    font-size: 20px;
+    padding:1%;
+}
+
+  ul p{
+    text-align: center;
+    padding: 3%;
+    color: #FFD200;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 20px;
+}

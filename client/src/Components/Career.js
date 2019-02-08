@@ -73,6 +73,24 @@ class Career extends Component{
            <br></br><br></br><br></br><br></br><br></br>
            <div className="friends-img">
            </div>
+           <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='guide'>
+            <h2>Become Employer Competitive!</h2>
+            <h3>We are here to guide you</h3>
+            <ul>
+                <h4>LinkedIn:</h4>
+                <p>LinkedIn is the best "Social Media" for the young professional after getting their degree or certificate. Having a Strong portrait photo heading your profile page is crutial. Under your picture is where you input your online resume breaking down past experiences, current jobs and schooling and showing off skill sets that friends and peers have validated for you. </p>
+                <h4>Portfolio:</h4>
+                <p>Get creative and showcase your style and unqueness for your futures and managers to see. Try to hammer down what type of job you would like to have, change your portfolio accordingly. Some jobs are on the more serious end but jobs like Disney want to see your creativity so have fun with making them. This is where all previous work will be showcased and is hand in hand in importance with your resume.  </p>
+                <h4>GitHub/Heroku:</h4>
+                <p>Github is the website that holds all your school work and lets people view whats on your local computer, Heroku is the platform that will deploy all your work for the world to see.</p>
+                <h4>MeetUps:</h4>
+                <p>Finding weekly and monthly meetups are going to be essencial for meeting new people because Networking is everything in todays job world.</p>
+                <h4>Job Searching:</h4>
+                <p>Searching for a job is going to be a full time job on its own. LinkedIn Premium will be a great resource to utilize, it does cost 30$ month so you're going to have to be committed to finding a job. The Premium offers a selection that you can break down companies by job titles and find exact people to meet and talk to about positions and great for networking.   </p>
+            </ul>
+            </div>
+
            <div class="wrapper video">
            <div><a href="https://www.youtube.com/user/TechGuyWeb" rel="noopener noreferrer" target="_blank"><h2>Travesty Media</h2></a></div>
            <iframe src='https://www.youtube.com/embed/UnTQVlqmDQ0'
