@@ -75,6 +75,7 @@ margin: auto;
 
 .career-grid{
     display: flex;
+    background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
 }
  
 h1{
@@ -83,3 +84,43 @@ h1{
     background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
 
 }
+
+h2{
+    text-align: center;
+    color: #FFD200; 
+}
+
+h3 {
+    color: #FFD200;
+    text-align: center;
+    font-size: 10px;
+}
+
+.video{
+    text-align: center;
+    margin: 100px;
+    background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+    background-size: 100%;
+  }
+
+  .video iframe{
+   height: 400px;
+   width: 600px;   
+}
+
+p{
+    color: #FFD200;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.friends-img{ 
+    background-image: url('https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    height: 450px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+  }
+

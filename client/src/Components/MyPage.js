@@ -52,8 +52,8 @@ class MyPage extends Component{
                         <br></br><br></br><br></br><br></br><br></br><br></br>
                         <div>
                         <div className heading><h1>TrillogyHub Database</h1>
-                        <p>When you come across something you think you're either going to need later or just want to save so you know where it is, this Database is the perfect spot. </p></div>
-                        <br></br>
+                        <h3>When you come across a vital website or line of code from StackOverFlow you need a place to store it so you dont spend countless hours looking through your computer to see where you saved it. This is TrillogyHub's Database and it's going to be perfect for you.</h3></div>
+                        <br></br><br></br>
                         <div className="myStuff-grid">
             {/* HTML */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
@@ -116,7 +116,7 @@ class MyPage extends Component{
            </CardMenu>
            </Card>
            </div>
-        <br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br>
            <div className="myStuff-grid">
            {/* Portfolio */}
            <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>
