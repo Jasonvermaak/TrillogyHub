@@ -3,7 +3,7 @@ import { Card, CardText, CardTitle, CardActions, CardMenu, Button } from 'react-
 class Career extends Component{
     render(){
         return (
-            <div>
+            <div className="careerPage">
                 <div header><h1>Career Services</h1></div>
                 <br></br>
                 <div className="career-grid">
@@ -72,6 +72,7 @@ class Career extends Component{
            </div>
            <br></br><br></br><br></br><br></br><br></br>
            <div className="friends-img">
+           {<h5>Teamwork</h5>}
            </div>
            <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             <div className='guide'>
@@ -89,18 +90,6 @@ class Career extends Component{
                 <h4>Job Searching:</h4>
                 <p>Searching for a job is going to be a full time job on its own. LinkedIn Premium will be a great resource to utilize, it does cost 30$ month so you're going to have to be committed to finding a job. The Premium offers a selection that you can break down companies by job titles and find exact people to meet and talk to about positions and great for networking.   </p>
             </ul>
-            </div>
-
-           <div class="wrapper video">
-           <div><a href="https://www.youtube.com/user/TechGuyWeb" rel="noopener noreferrer" target="_blank"><h2>Travesty Media</h2></a></div>
-           <iframe src='https://www.youtube.com/embed/UnTQVlqmDQ0'
-                    frameBorder='10'
-                    allow='autoplay; encrypted-media'
-                    allowFullScreen
-                    title='video'
-            />
-            <div><h3>Travesty Media is great tool to use when you want to break down a subject and get a
-                    different teacher's perspective on the specific component you're stuck on. </h3></div>
             </div>
            </div>
         )
